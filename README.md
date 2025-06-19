@@ -31,27 +31,7 @@ You can configure a Claude desktop app (the Host) to:
 - That launches the `fetch` MCP server locally on your machine
 
 ## 🏗️ MCP Architecture
-Here's a simplified Mermaid diagram to help beginners understand the flow:
+Here's a simplified architecture diagram:
 
-```mermaid
-graph TD
-    subgraph Host["Host (LLM App)"]
-        A1[MCP Client 1]
-        A2[MCP Client 2]
-        A3[MCP Client 3]
-    end
+![MCP ARCHITECTURE](mcp.png)
 
-    A1 --> B1[MCP Server (Local)]
-    A2 --> B2[MCP Server (Remote)]
-    A3 --> B2
-
-    classDef host fill:#f0f9ff,stroke:#0ea5e9,stroke-width:2px
-    classDef client fill:#dbeafe,stroke:#2563eb
-    classDef local fill:#dcfce7,stroke:#22c55e
-    classDef remote fill:#fef3c7,stroke:#eab308
-    
-    class Host host
-    class A1,A2,A3 client
-    class B1 local
-    class B2 remote
-```
