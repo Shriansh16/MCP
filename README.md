@@ -35,7 +35,7 @@ Here's a simplified Mermaid diagram to help beginners understand the flow:
 
 ```mermaid
 graph TD
-    subgraph Host (LLM App)
+    subgraph Host["Host (LLM App)"]
         A1[MCP Client 1]
         A2[MCP Client 2]
         A3[MCP Client 3]
@@ -45,10 +45,13 @@ graph TD
     A2 --> B2[MCP Server (Remote)]
     A3 --> B2
 
-    style Host fill:#f0f9ff,stroke:#0ea5e9,stroke-width:2px
-    style A1 fill:#dbeafe,stroke:#2563eb
-    style A2 fill:#dbeafe,stroke:#2563eb
-    style A3 fill:#dbeafe,stroke:#2563eb
-    style B1 fill:#dcfce7,stroke:#22c55e
-    style B2 fill:#fef3c7,stroke:#eab308
+    classDef host fill:#f0f9ff,stroke:#0ea5e9,stroke-width:2px
+    classDef client fill:#dbeafe,stroke:#2563eb
+    classDef local fill:#dcfce7,stroke:#22c55e
+    classDef remote fill:#fef3c7,stroke:#eab308
+    
+    class Host host
+    class A1,A2,A3 client
+    class B1 local
+    class B2 remote
 ```
