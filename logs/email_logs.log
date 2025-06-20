@@ -1,0 +1,31 @@
+2025-06-20 13:20:45,990 - INFO - Simulating sending email.
+2025-06-20 13:20:45,991 - INFO - HTML content:
+<h1>Welcome!</h1><p>This is a test email.</p>
+2025-06-20 13:20:45,991 - INFO - Delivered to: ['alice@example.com', 'charlie@example.com', 'david@example.com']
+2025-06-20 13:20:45,992 - INFO - Bounced: ['bob@example.com']
+2025-06-20 14:39:16,629 - INFO - No auth config provided, skipping auth setup
+2025-06-20 14:39:16,630 - INFO - MCP server listening at /mcp
+2025-06-20 14:52:08,253 - INFO - No auth config provided, skipping auth setup
+2025-06-20 14:52:08,253 - INFO - MCP server listening at /mcp
+2025-06-20 14:52:56,241 - INFO - No auth config provided, skipping auth setup
+2025-06-20 14:52:56,242 - INFO - MCP server listening at /mcp
+2025-06-20 15:02:41,231 - INFO - Simulating sending email.
+2025-06-20 15:02:41,232 - INFO - HTML content:
+<h1>Welcome!</h1><p>This is a test email.</p>
+2025-06-20 15:02:41,232 - INFO - Delivered to: ['alice@example.com', 'bob@example.com', 'charlie@example.com', 'david@example.com']
+2025-06-20 15:02:41,232 - INFO - Bounced: []
+2025-06-20 15:02:44,994 - INFO - Simulating sending email.
+2025-06-20 15:02:44,995 - INFO - HTML content:
+<h1>Welcome!</h1><p>This is a test email.</p>
+2025-06-20 15:02:44,995 - INFO - Delivered to: ['alice@example.com', 'bob@example.com', 'charlie@example.com', 'david@example.com']
+2025-06-20 15:02:44,995 - INFO - Bounced: []
+2025-06-20 15:02:47,256 - INFO - Simulating sending email.
+2025-06-20 15:02:47,257 - INFO - HTML content:
+<h1>Welcome!</h1><p>This is a test email.</p>
+2025-06-20 15:02:47,264 - INFO - Delivered to: ['alice@example.com', 'bob@example.com', 'charlie@example.com', 'david@example.com']
+2025-06-20 15:02:47,264 - INFO - Bounced: []
+2025-06-20 15:02:48,681 - INFO - Simulating sending email.
+2025-06-20 15:02:48,681 - INFO - HTML content:
+<h1>Welcome!</h1><p>This is a test email.</p>
+2025-06-20 15:02:48,681 - INFO - Delivered to: ['alice@example.com', 'bob@example.com', 'charlie@example.com', 'david@example.com']
+2025-06-20 15:02:48,682 - INFO - Bounced: []
