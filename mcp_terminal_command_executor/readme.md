@@ -19,7 +19,7 @@ The code creates a bridge between:
 4. **Response Generation**: Sends tool results back to Gemini for final response
 5. **Output**: Returns the formatted response to the user
 
-## How It All Works Together
+##  How It All Works Together
 
 - **Startup**: User runs the script with an MCP server path
 - **Connection**: Client connects to the MCP server and discovers available tools
