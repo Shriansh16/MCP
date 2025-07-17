@@ -16,7 +16,7 @@ from google.genai import types
 from google.genai.types import Tool, FunctionDeclaration
 from google.genai.types import GenerateContentConfig
 
-from dotenv import load_dotenv  # For loading API keys from a .env file
+from dotenv import load_dotenv   # For loading API keys from a .env file
 
 # Load environment variables from .env file
 load_dotenv()
