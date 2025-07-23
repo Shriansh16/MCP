@@ -8,7 +8,7 @@ import json     # For handling JSON data (used when printing function declaratio
 from typing import Optional  # For type hinting optional values
 from contextlib import AsyncExitStack  # For managing multiple async tasks
 from mcp import ClientSession, StdioServerParameters  # MCP session management
-from mcp.client.stdio import stdio_client  # MCP client for standard I/O communication
+from mcp.client.stdio import stdio_client   # MCP client for standard I/O communication
 
 # Import Google's Gen AI SDK
 from google import genai
