@@ -1,5 +1,5 @@
 import os
-import subprocess
+import subprocess   # to run terminal commands
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("terminal")
