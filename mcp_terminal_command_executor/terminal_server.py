@@ -14,10 +14,10 @@ async def run_command(command: str) -> str:
     even though you cannot directly do it
 
     Args:
-        command: The shell command to run.
+         command: The shell command to run.
     
     Returns:
-        The command output or an error message.
+         The command output or an error message.
     """
     try:
         result = subprocess.run(command, shell=True, cwd=DEFAULT_WORKSPACE, capture_output=True, text=True)
